@@ -45,7 +45,7 @@ class App extends Component {
           </div>
           <div className="col-sm-6">
             <div dangerouslySetInnerHTML={this.renderText(this.state.text)} />
-            <div>{this.state.text}</div>
+            {/* <div>{this.state.text}</div> */}
           </div>
         </div>
       </div>
